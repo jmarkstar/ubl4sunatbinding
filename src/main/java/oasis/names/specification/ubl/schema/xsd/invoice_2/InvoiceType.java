@@ -13,6 +13,7 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 import oasis.names.specification.ubl.schema.xsd.commonaggregatecomponents_2.AllowanceChargeType;
 import oasis.names.specification.ubl.schema.xsd.commonaggregatecomponents_2.BillingReferenceType;
@@ -133,6 +134,7 @@ import oasis.names.specification.ubl.schema.xsd.commonextensioncomponents_2.UBLE
  * 
  * 
  */
+@XmlRootElement(namespace = "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2", name = "Invoice")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "InvoiceType", propOrder = {
     "ublExtensions",
@@ -184,7 +186,7 @@ import oasis.names.specification.ubl.schema.xsd.commonextensioncomponents_2.UBLE
     "legalMonetaryTotal",
     "invoiceLine"
 })
-public class InvoiceType {
+public final class InvoiceType {
 
     @XmlElement(name = "UBLExtensions", namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")
     protected UBLExtensionsType ublExtensions;

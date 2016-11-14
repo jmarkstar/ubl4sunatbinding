@@ -13,6 +13,7 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 import oasis.names.specification.ubl.schema.xsd.commonaggregatecomponents_2.SignatureType;
 import oasis.names.specification.ubl.schema.xsd.commonaggregatecomponents_2.SupplierPartyType;
@@ -67,6 +68,7 @@ import sunat.names.specification.ubl.peru.schema.xsd.sunataggregatecomponents_1.
  * 
  * 
  */
+@XmlRootElement(namespace = "urn:oasis:names:specification:ubl:schema:xsd:VoidedDocuments-1", name = "VoidedDocuments")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "VoidedDocumentsType", propOrder = {
     "ublExtensions",

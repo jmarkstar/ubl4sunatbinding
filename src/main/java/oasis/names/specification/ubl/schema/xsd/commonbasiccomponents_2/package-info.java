@@ -5,5 +5,12 @@
 // Generated on: 2016.11.12 at 09:12:08 PM AEDT 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")
+@javax.xml.bind.annotation.XmlSchema(namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+        xmlns = {
+            @XmlNs(prefix="cbc", namespaceURI="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")
+        }
+)
 package oasis.names.specification.ubl.schema.xsd.commonbasiccomponents_2;
+
+import javax.xml.bind.annotation.XmlNs;
+

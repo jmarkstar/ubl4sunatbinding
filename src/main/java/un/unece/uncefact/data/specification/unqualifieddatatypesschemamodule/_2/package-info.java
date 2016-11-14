@@ -5,5 +5,11 @@
 // Generated on: 2016.11.12 at 09:12:08 PM AEDT 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2")
+@javax.xml.bind.annotation.XmlSchema(namespace = "urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2",
+        xmlns = {
+            @XmlNs(prefix="udt", namespaceURI="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2")
+        })
 package un.unece.uncefact.data.specification.unqualifieddatatypesschemamodule._2;
+
+import javax.xml.bind.annotation.XmlNs;
+

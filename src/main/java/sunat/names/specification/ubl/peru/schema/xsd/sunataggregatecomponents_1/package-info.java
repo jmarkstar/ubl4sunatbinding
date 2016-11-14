@@ -5,5 +5,12 @@
 // Generated on: 2016.11.12 at 09:12:08 PM AEDT 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1", 
+        elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED,
+        xmlns = {
+            @XmlNs(prefix="sac", namespaceURI="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1")
+        })
 package sunat.names.specification.ubl.peru.schema.xsd.sunataggregatecomponents_1;
+
+import javax.xml.bind.annotation.XmlNs;
+

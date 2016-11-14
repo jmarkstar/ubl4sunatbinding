@@ -13,6 +13,7 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 import oasis.names.specification.ubl.schema.xsd.commonaggregatecomponents_2.AllowanceChargeType;
 import oasis.names.specification.ubl.schema.xsd.commonaggregatecomponents_2.BillingReferenceType;
@@ -120,6 +121,7 @@ import oasis.names.specification.ubl.schema.xsd.commonextensioncomponents_2.UBLE
  * 
  * 
  */
+@XmlRootElement(namespace = "urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2", name = "CreditNote")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CreditNoteType", propOrder = {
     "ublExtensions",

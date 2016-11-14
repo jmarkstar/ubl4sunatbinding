@@ -5,5 +5,13 @@
 // Generated on: 2016.11.12 at 09:12:08 PM AEDT 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(
+        namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2", 
+        elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED,
+        xmlns = {
+            @XmlNs(prefix="ext", namespaceURI="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2")
+        })
 package oasis.names.specification.ubl.schema.xsd.commonextensioncomponents_2;
+
+import javax.xml.bind.annotation.XmlNs;
+

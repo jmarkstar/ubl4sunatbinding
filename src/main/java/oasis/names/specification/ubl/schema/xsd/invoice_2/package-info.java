@@ -5,5 +5,12 @@
 // Generated on: 2016.11.12 at 09:11:26 PM AEDT 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2", 
+        elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED,
+        xmlns = {
+            @XmlNs(prefix="", namespaceURI="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2")
+        })
 package oasis.names.specification.ubl.schema.xsd.invoice_2;
+
+import javax.xml.bind.annotation.XmlNs;
+

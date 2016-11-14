@@ -5,5 +5,11 @@
 // Generated on: 2016.11.12 at 09:12:08 PM AEDT 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2")
+@javax.xml.bind.annotation.XmlSchema(namespace = "urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2",
+        xmlns = {
+            @XmlNs(prefix="qdt", namespaceURI="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2")
+        })
 package oasis.names.specification.ubl.schema.xsd.qualifieddatatypes_2;
+
+import javax.xml.bind.annotation.XmlNs;
+
